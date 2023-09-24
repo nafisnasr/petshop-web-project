@@ -1,0 +1,66 @@
+/* Start Header Styles */
+.header_right-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  padding: 20px;
+}
+.header_img-container {
+  width: 90%;
+  object-fit: cover;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.header_img-container img {
+  width: 100%;
+}
+
+.header_btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.header_left-section {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px 0px;
+}
+.header_title {
+  font-weight: 600;
+  color: var(--first-color);
+}
+.header_text {
+  margin: 10px 0px;
+  padding: 10px;
+  color: var(--first-color);
+}
+.header_btn-container {
+  margin: 20px 0px;
+}
+.services-btn {
+  padding: 8px 18px;
+  background-color: var(--btn-bg);
+  border-radius: 20px;
+  color: var(--white);
+  margin-right: 20px;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+.services-btn:hover {
+  background-color: rgba(255, 68, 0, 0.664);
+}
+.reserve-btn {
+  padding: 8px 18px;
+  border-radius: 20px;
+  transition: all 0.4s;
+  color: var(--first-color);
+}
+.reserve-btn:hover {
+  background-color: var(--white);
+  border: 1px solid var(--first-color);
+}
+/* End Header Styles */

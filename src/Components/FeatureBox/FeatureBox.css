@@ -1,0 +1,37 @@
+/* start featursbox styles */
+
+.feature-box {
+  padding: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--white);
+  margin: 20px 0px;
+}
+.feature_icon-box {
+  padding: 10px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feature_icon {
+  font-size: 25px;
+}
+.blue {
+  background-color: lightblue;
+}
+.greenblue {
+  background-color: lightseagreen;
+}
+.yellow {
+  background-color: gold;
+}
+.red {
+  background-color: orangered;
+}
+/* End featursbox styles */
